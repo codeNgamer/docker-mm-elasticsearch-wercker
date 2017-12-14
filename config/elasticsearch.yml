@@ -1,4 +1,2 @@
-script.inline: on
-script.indexed: on
-bootstrap.mlockall: true
-discovery.zen.ping.multicast.enabled: false
+script.allowed_types: inline
+bootstrap.memory_lock: true
